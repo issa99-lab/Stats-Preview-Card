@@ -5,7 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stats Preview Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
-  <body></body>
+  <body class="text-white font-Montserrat font-normal">
+    <main
+      class="pt-4 pb-10 w-full min-h-screen bg-main md:pt-24 lg:pt-24 lg:justify-center"
+    >
+      <section
+        class="bg-card w-11/12 mx-auto object-cover h-full border-slate-200 rounded-md flex flex-col-reverse md:flex-row md:w-1/2 lg:w-1/2 lg:flex-row lg:justify-center"
+      >
+        <!-- child one content -->
+        <div
+          class="text-center pb-4 md:w-1/2 md:pb-6 md:text-left lg:w-1/2 lg:text-left lg:p-6 lg:mx-2"
+        >
+          <h1
+            class="text-3xl font-bold inline-block py-8 md:w-full md-py-0 md:pb-4 lg:py-0 lg:pb-4 lg:w-full"
+          >
+            Get <span class="inline-block text-violet">insights</span> that
+            <br class="md:hidden lg:hidden" />
+            help your business grow.
+          </h1>
+          <p
+            class="text-whitish w-4/5 leading-7 inline-block pb-4 md:w-full md:leading-5 lg:w-full lg:leading-5"
+          >
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <!-- analytics div section -->
+          <div
+            class="block md:flex md:justify-between lg:flex lg:justify-between"
+          >
+            <div class="py-2 lg:py-0 md:py-0">
+              <span class="block my-1 font-bold text-3xl md:text-xl lg:text-xl"
+                >10k+</span
+              >
+              <span
+                class="block text-stats uppercase my-2 tracking-widest text-xs lg:my-0 lg:leading-tight"
+                >Companies</span
+              >
+            </div>
+            <div class="py-2 lg:py-0 md:py-0">
+              <span class="block my-1 font-bold text-3xl lg:text-xl">314</span>
+              <span
+                class="block text-stats uppercase my-2 tracking-widest text-xs lg:my-0 lg:leading-tight"
+                >Templates</span
+              >
+            </div>
+            <div class="py-2 lg:py-0 md:py-0">
+              <span class="block my-1 font-bold text-3xl lg:text-xl">12M+</span>
+              <span
+                class="block text-stats uppercase my-2 tracking-widest text-xs lg:my-0 lg:leading-tight"
+                >Queries</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- child two with pic -->
+        <div class="rounded-md md:w-1/2 lg:w-1/2">
+          <img
+            src="/images/image-header-desktop.jpg"
+            alt=""
+            class="rounded-t-md max-w-full w-full h-full md:rounded-r-md md:rounded-tl-none lg:rounded-r-md lg:rounded-tl-none"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
